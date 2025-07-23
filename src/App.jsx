@@ -1,8 +1,14 @@
-import React, { useState } from "react"; // ← Add `React` here
-import "./App.css";
+import React from "react";
+import "./index.css";
 
 function App() {
-  return <h1 className="text-3xl text-blue-500">hello</h1>;
+  return (
+    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-red-600">
+        Hello Tailwind + React!
+      </h1>
+    </div>
+  );
 }
 
 export default App;
